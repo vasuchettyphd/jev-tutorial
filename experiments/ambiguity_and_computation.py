@@ -1,5 +1,6 @@
 import json, concurrent.futures as cf
-from triage_vs_logic import ask, TEAM
+from jev import ask
+from triage_vs_logic import TEAM
 C=["The item arrived broken AND you charged me twice for it",
    "hi",
    "Can I change the card my subscription bills to? I can't find the setting after logging in",

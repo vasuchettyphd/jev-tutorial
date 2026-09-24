@@ -43,7 +43,73 @@ XX  log has 3 "fail" entries - "more than 3?"  -> p=0.84 yes   (wrong)
 OK  prices sum to 101 - "over 100?"            -> p=0.75       (right, but unsure)
 ```
 
-Its errors cluster right at the thresholds, which is where the rule makes a difference. Its confidence score doesn't reliably warn you when that happens.
+Its errors cluster right at the thresholds, which is where the rule makes a difference, and here it was 97% confident about a wrong answer. Eight cases is a small sample, though.
+
+## Stress test: 300 cases, a much harder policy
+
+Eight cases is a small sample, so I scaled it up ([`refund_stress_test.py`](experiments/refund_stress_test.py)). The policy is now four steps with several interacting rules:
+
+1. Final-sale items are never refunded, unless defective.
+2. Find the return window. Defective items get 365 days. Non-defective electronics get 15 days (30 for platinum customers). Everything else goes by tier: standard 30 days, silver 45, gold 60, platinum 90. The last day of the window counts as inside it.
+3. Anything outside its window is denied.
+4. Refundable requests are routed by order total: under $100 is AUTO_REFUND, $100-$499.99 goes to MANAGER, $500 or more goes to FINANCE.
+
+Each case has a customer tier, a category, a final-sale flag, 1-3 items with quantities, a purchase date, and a customer message that fits the category and may or may not describe a defect (36 distinct messages). Half the cases sit within 3 days of their window edge, which is where the earlier test failed. Code computes the correct answer for every case (checked by offline unit tests in [`test_truth.py`](experiments/test_truth.py)), and Jev is asked three ways:
+
+- **A. Raw:** Jev gets purchase dates and item prices, so it has to do the date math, add up the total, apply the rules and read the message.
+- **B. Prepped:** code works out `days_since_purchase` and `order_total_usd`. Jev still applies the rules and reads the message.
+- **C. Hybrid:** Jev only answers "does this message describe a defect?" and code applies every rule.
+
+```
+                                  A raw          B prepped      C hybrid
+all cases                         211/300 (70%)  236/300 (79%)  300/300 (100%)
+far from any edge                 144/165 (87%)  151/165 (92%)  165/165 (100%)
+within 3 days of window edge       63/129 (49%)   80/129 (62%)  129/129 (100%)
+total within $10 of $100/$500       6/9 (67%)      8/9 (89%)      9/9 (100%)
+final-sale                         61/70 (87%)    62/70 (89%)    70/70 (100%)
+defective                          99/150 (66%)  112/150 (75%)  150/150 (100%)
+electronics                        67/84 (80%)    76/84 (90%)    84/84 (100%)
+```
+
+(The "$10 of $100/$500" row only counts refundable cases, since the total doesn't matter for a denial. That's why it's small.)
+
+What the harder test shows:
+
+- **Stacked rules drag accuracy down.** It went from 7/8 on the simple policy to 70% here. Within 3 days of a window edge it's 49%: Jev gets the refund-or-deny call right less than half the time.
+- **Doing the arithmetic in code helps, but doesn't fix it.** Prepped is 79%, and near an edge still only 62%. The rules themselves are hard for Jev, not just the math.
+- **The most common miss is a defective item a few days past 365 being refunded anyway.** Jev seems to treat "defective" as "always refundable".
+- **Don't over-read the hybrid's 100%.** In that mode code applies the rules, and it's fed Jev's answer about 36 distinct messages, all of which Jev read correctly. So 300/300 really means "36/36 messages read right, and `if` statements don't make mistakes". The tricky-message test below is the real test of the hybrid.
+
+### Confidence helps a lot, but it's not a guarantee
+
+"Act only when confidence is at least X, otherwise escalate":
+
+```
+             threshold   answers kept   accuracy of kept
+A raw        0.9          45/300 (15%)   44/45  (98%)
+A raw        0.95         38/300 (13%)   38/38  (100%)
+B prepped    0.8         213/300 (71%)  194/213 (91%)
+B prepped    0.9         179/300 (60%)  174/179 (97%)
+B prepped    0.95        136/300 (45%)  135/136 (99%)
+```
+
+Jev usually knows when it's struggling. 235 of the 300 raw answers had confidence under 0.8, and gating at 0.9 lifts prepped accuracy from 79% to 97%. But it still makes confident mistakes. One prepped miss sent a final-sale, defective item 400 days old (35 days past its window) to FINANCE with 0.93 confidence. For a real refund flow, 97% probably isn't enough to let Jev apply the rules itself, which brings us back to the hybrid.
+
+### Stress-testing the part Jev does in the hybrid
+
+The hybrid only works if Jev reads messages correctly, so [`defect_reading_test.py`](experiments/defect_reading_test.py) throws 30 deliberately tricky, hand-labelled ones at it:
+
+```
+OK  p=0.97  "Wow. Five stars for the packaging. Zero for the product, which is in two pieces."
+OK  p=0.95  "La cafetera gotea por abajo desde el primer dia."          (Spanish: leaks)
+OK  p=0.73  "It works, technically, if you hold the cable at exactly the right angle."
+OK  p=0.02  "It broke my heart to return it, it's beautiful, but it doesn't match my couch."
+OK  p=0.11  "It did stop working once, but it was the outlet, not the lamp."
+OK  p=0.39  "I dropped it down the stairs and now it won't turn on."   (customer's fault)
+XX  p=0.65  "My last one from you was defective. This one is fine but I've lost trust."
+```
+
+It got 29/30. It handled sarcasm, idioms, Spanish, buried details, customer-caused damage and problems that had already been fixed. The one miss is a defect that belonged to a *different* item. Five answers landed in the unsure 0.2-0.8 band, which is exactly the queue a human would review. The full output is saved in `results/defect_reading_test.json`.
 
 ## The rule of thumb: Jev reads, code decides
 
@@ -104,7 +170,12 @@ Needs Python 3 (standard library only) and `OPENROUTER_API_KEY` in your environm
 cd experiments
 python3 triage_vs_logic.py            # triage vs rule-based refund routing
 python3 ambiguity_and_computation.py  # ambiguous tickets, sums, counts, dates, multi-hop
+python3 refund_stress_test.py 300 7   # 300 random cases, seed 7; writes results/refund_stress_test_seed7.json
+python3 defect_reading_test.py        # 30 tricky hand-labelled messages; writes results/defect_reading_test.json
+python3 -m unittest test_truth        # offline checks of the stress test's answer key (no API key needed)
 ```
+
+The stress test makes 3 calls per case (900 for 300 cases) and refuses more than 1,000 cases. Its calls carry the long policy text, so they cost about twice as much as a triage call (roughly $0.00003 each), and a full run comes to a few cents. Failed calls are retried on rate limits and server errors only. A bad key or an empty balance stops straight away.
 
 TypeSafe designs Jev to give stable answers across repeated runs, but exact numbers may shift between model versions.
 

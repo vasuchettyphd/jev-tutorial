@@ -1,10 +1,5 @@
-import os, json, urllib.request, concurrent.futures as cf
-KEY=os.environ["OPENROUTER_API_KEY"]
-def ask(state, questions):
-    req=urllib.request.Request("https://openrouter.ai/api/alpha/decisions",
-        data=json.dumps({"model":"typesafe/jev-1.13","state":state,"questions":questions}).encode(),
-        headers={"Authorization":f"Bearer {KEY}","Content-Type":"application/json"})
-    return json.load(urllib.request.urlopen(req))
+import concurrent.futures as cf
+from jev import ask
 
 TEAM={"type":"choice","instructions":"Which team should handle `ticket`?",
  "criteria":{"billing":"Charges, invoices, refunds, subscriptions","shipping":"Delivery, tracking, lost or late packages",
