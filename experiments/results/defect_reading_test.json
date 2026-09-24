@@ -1,0 +1,182 @@
+[
+ {
+  "message": "not gonna lie it's kinda cute but it doesnt actually turn on lol",
+  "defective": true,
+  "why": "casual, positive first",
+  "p": 0.95
+ },
+ {
+  "message": "Wow. Five stars for the packaging. Zero for the product, which is in two pieces.",
+  "defective": true,
+  "why": "sarcasm",
+  "p": 0.97
+ },
+ {
+  "message": "the thingy on the side is supposed to click and it just... doesnt",
+  "defective": true,
+  "why": "vague",
+  "p": 0.93
+ },
+ {
+  "message": "I'm not saying it's broken, but the screen flickers constantly and then goes black.",
+  "defective": true,
+  "why": "denies, then describes",
+  "p": 0.74
+ },
+ {
+  "message": "Bought it for my mom's birthday, she loved the color, we had cake, and then when she plugged it in there was a pop and a burning smell.",
+  "defective": true,
+  "why": "rambling, buried",
+  "p": 0.89
+ },
+ {
+  "message": "heater blows cold air only. set to max. still cold.",
+  "defective": true,
+  "why": "terse",
+  "p": 0.94
+ },
+ {
+  "message": "La cafetera gotea por abajo desde el primer dia.",
+  "defective": true,
+  "why": "Spanish: leaks from day one",
+  "p": 0.95
+ },
+ {
+  "message": "battery goes from 100 to 0 in like 20 min, brand new",
+  "defective": true,
+  "why": "performance defect",
+  "p": 0.9
+ },
+ {
+  "message": "It works, technically, if you hold the cable at exactly the right angle.",
+  "defective": true,
+  "why": "sarcastic 'works'",
+  "p": 0.73
+ },
+ {
+  "message": "Stitching came undone after one gentle wash, followed the care label exactly.",
+  "defective": true,
+  "why": "cites correct use",
+  "p": 0.88
+ },
+ {
+  "message": "The left earbud has no sound. Right one is great.",
+  "defective": true,
+  "why": "partial",
+  "p": 0.94
+ },
+ {
+  "message": "Arrived fine. Two weeks later the handle snapped off while pouring.",
+  "defective": true,
+  "why": "starts fine",
+  "p": 0.86
+ },
+ {
+  "message": "chair creaks and one leg bends when I sit, im 60kg",
+  "defective": true,
+  "why": "user rules out misuse",
+  "p": 0.93
+ },
+ {
+  "message": "The box was destroyed, looked like it was run over. Item inside is perfect though.",
+  "defective": false,
+  "why": "damage to packaging only",
+  "p": 0.02
+ },
+ {
+  "message": "It broke my heart to return it, it's beautiful, but it doesn't match my couch.",
+  "defective": false,
+  "why": "'broke' idiom",
+  "p": 0.02
+ },
+ {
+  "message": "This thing is killing it, works amazing, I just bought the wrong model.",
+  "defective": false,
+  "why": "slang, wrong model",
+  "p": 0.03
+ },
+ {
+  "message": "Had a problem pairing it at first but I restarted my phone and now it works perfectly.",
+  "defective": false,
+  "why": "problem already solved",
+  "p": 0.09
+ },
+ {
+  "message": "It's too loud for my apartment. Works exactly as advertised.",
+  "defective": false,
+  "why": "complaint, not defect",
+  "p": 0.04
+ },
+ {
+  "message": "The shoes are fine, my feet are the problem. Need a wider size.",
+  "defective": false,
+  "why": "self-blame",
+  "p": 0.04
+ },
+ {
+  "message": "I dropped it down the stairs and now it won't turn on.",
+  "defective": false,
+  "why": "customer caused damage",
+  "p": 0.39
+ },
+ {
+  "message": "My dog chewed through the cable.",
+  "defective": false,
+  "why": "customer caused damage",
+  "p": 0.19
+ },
+ {
+  "message": "It's not defective. I just don't want it anymore.",
+  "defective": false,
+  "why": "explicit negation",
+  "p": 0.02
+ },
+ {
+  "message": "I read reviews saying these break after a month so I'd rather return it before that happens.",
+  "defective": false,
+  "why": "hypothetical future defect",
+  "p": 0.45
+ },
+ {
+  "message": "My last one from you was defective. This one is fine but I've lost trust.",
+  "defective": false,
+  "why": "defect was a different item",
+  "p": 0.65
+ },
+ {
+  "message": "Works great. Returning because I got the same thing as a gift.",
+  "defective": false,
+  "why": "duplicate",
+  "p": 0.02
+ },
+ {
+  "message": "The color is a bit darker than the photo, and it's slower than my old one. Otherwise fine.",
+  "defective": false,
+  "why": "mild dislikes",
+  "p": 0.15
+ },
+ {
+  "message": "Es muy grande para mi cocina, pero funciona bien.",
+  "defective": false,
+  "why": "Spanish: too big, works fine",
+  "p": 0.03
+ },
+ {
+  "message": "scratched it myself moving it, my bad, can i still return?",
+  "defective": false,
+  "why": "self-inflicted",
+  "p": 0.04
+ },
+ {
+  "message": "Instructions were confusing, took me an hour to assemble, but it's solid now.",
+  "defective": false,
+  "why": "setup friction",
+  "p": 0.04
+ },
+ {
+  "message": "It did stop working once, but it was the outlet, not the lamp.",
+  "defective": false,
+  "why": "misattributed failure",
+  "p": 0.11
+ }
+]

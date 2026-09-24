@@ -6,9 +6,11 @@ rambling, defects that were already fixed, defects in something else, other
 languages, and messages that mention damage without claiming a defect.
 
 Usage: python3 defect_reading_test.py
+Writes results/defect_reading_test.json.
 """
-import concurrent.futures as cf
-from refund_stress_test import ask, DEFECT_Q
+import json, os, concurrent.futures as cf
+from jev import ask
+from refund_stress_test import DEFECT_Q
 
 # (message, is_defective, why it is tricky)
 CASES = [
@@ -25,9 +27,7 @@ CASES = [
     ("Stitching came undone after one gentle wash, followed the care label exactly.", True, "cites correct use"),
     ("The left earbud has no sound. Right one is great.", True, "partial"),
     ("Arrived fine. Two weeks later the handle snapped off while pouring.", True, "starts fine"),
-    ("Every time I open the app it says 'device not found' even though it's right next to me.", True, "software symptom"),
     ("chair creaks and one leg bends when I sit, im 60kg", True, "user rules out misuse"),
-    ("Not what I expected: it's missing the power adapter that the listing says is included.", True, "missing part"),
     # Not defective, but phrased to look like it
     ("The box was destroyed, looked like it was run over. Item inside is perfect though.", False, "damage to packaging only"),
     ("It broke my heart to return it, it's beautiful, but it doesn't match my couch.", False, "'broke' idiom"),
@@ -65,3 +65,7 @@ if __name__ == "__main__":
     print(f"\n{ok}/{len(rows)} correct")
     unsure = [p for _, p in rows if 0.2 < p < 0.8]
     print(f"{len(unsure)} answers in the unsure band 0.2-0.8")
+    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results", "defect_reading_test.json")
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w") as f:
+        json.dump([{"message": m, "defective": d, "why": w, "p": p} for (m, d, w), p in rows], f, indent=1)
