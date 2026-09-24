@@ -1,0 +1,10957 @@
+[
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 89.0,
+  "days": 260,
+  "purchased": "2026-01-07",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.61
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 31,
+  "purchased": "2026-08-24",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.67
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.79
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 405.5,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.37
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.42
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   }
+  ],
+  "total": 597.0,
+  "days": 97,
+  "purchased": "2026-06-19",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.83
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   }
+  ],
+  "total": 99.0,
+  "days": 219,
+  "purchased": "2026-02-17",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.49
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 59,
+  "purchased": "2026-07-27",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.37
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.63
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   }
+  ],
+  "total": 103.5,
+  "days": 93,
+  "purchased": "2026-06-23",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.15
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 305,
+  "purchased": "2025-11-23",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.58
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   }
+  ],
+  "total": 898.0,
+  "days": 34,
+  "purchased": "2026-08-21",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.86
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.81
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 1446.99,
+  "days": 12,
+  "purchased": "2026-09-12",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.82
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.72
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   }
+  ],
+  "total": 99.0,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.36
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.45
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   }
+  ],
+  "total": 339.0,
+  "days": 350,
+  "purchased": "2025-10-09",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.39
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.87
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.26
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.32
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 3
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 2
+   }
+  ],
+  "total": 909.0,
+  "days": 400,
+  "purchased": "2025-08-20",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   }
+  ],
+  "total": 382.0,
+  "days": 89,
+  "purchased": "2026-06-27",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.22
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.36
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 360.0,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.25
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.4
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   }
+  ],
+  "total": 2245.0,
+  "days": 18,
+  "purchased": "2026-09-06",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 380,
+  "purchased": "2025-09-09",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.49
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 14,
+  "purchased": "2026-09-10",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.87
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.93
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   }
+  ],
+  "total": 898.0,
+  "days": 399,
+  "purchased": "2025-08-21",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.76
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.38
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   }
+  ],
+  "total": 49.98,
+  "days": 117,
+  "purchased": "2026-05-30",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.51
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 13,
+  "purchased": "2026-09-11",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.59
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.9
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 69.0,
+  "days": 59,
+  "purchased": "2026-07-27",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.53
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 179.5,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.65
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.82
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 423.97,
+  "days": 31,
+  "purchased": "2026-08-24",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 672.99,
+  "days": 72,
+  "purchased": "2026-07-14",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.8
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.7
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.93
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 360.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.42
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.39
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 340,
+  "purchased": "2025-10-19",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.68
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 398,
+  "purchased": "2025-08-22",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.4
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.66
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 89.0,
+  "days": 272,
+  "purchased": "2025-12-26",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.69
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.55
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 260,
+  "purchased": "2026-01-07",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 259,
+  "purchased": "2026-01-08",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.46
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.79
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.83
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 3
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   }
+  ],
+  "total": 1471.95,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.27
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.75
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 145.0,
+  "days": 89,
+  "purchased": "2026-06-27",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 19.99,
+  "days": 49,
+  "purchased": "2026-08-06",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   }
+  ],
+  "total": 158.0,
+  "days": 207,
+  "purchased": "2026-03-01",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.24
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.64
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 365,
+  "purchased": "2025-09-24",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.31
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.79
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 223.99,
+  "days": 364,
+  "purchased": "2025-09-25",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.85
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.9
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.83
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 408.49,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.14
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.6
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 158.49,
+  "days": 123,
+  "purchased": "2026-05-24",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.9
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 106,
+  "purchased": "2026-06-10",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.79
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.86
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.87
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 420.0,
+  "days": 62,
+  "purchased": "2026-07-24",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.48
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 2
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   }
+  ],
+  "total": 997.94,
+  "days": 13,
+  "purchased": "2026-09-11",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.69
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.87
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 145.0,
+  "days": 67,
+  "purchased": "2026-07-19",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.66
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   }
+  ],
+  "total": 178.0,
+  "days": 344,
+  "purchased": "2025-10-15",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.11
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.84
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 365,
+  "purchased": "2025-09-24",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.36
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.69
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 289.0,
+  "days": 27,
+  "purchased": "2026-08-28",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.69
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.74
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 3
+   }
+  ],
+  "total": 237.0,
+  "days": 47,
+  "purchased": "2026-08-08",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.22
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.83
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.82
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 19.99,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.64
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.52
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 19.99,
+  "days": 254,
+  "purchased": "2026-01-13",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.81
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 3
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 419.5,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.43
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   }
+  ],
+  "total": 267.0,
+  "days": 251,
+  "purchased": "2026-01-16",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   }
+  ],
+  "total": 178.0,
+  "days": 57,
+  "purchased": "2026-07-29",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.26
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.76
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 337.98,
+  "days": 330,
+  "purchased": "2025-10-29",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.73
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.52
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 69.49,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.19
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.59
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   }
+  ],
+  "total": 1097.98,
+  "days": 282,
+  "purchased": "2025-12-16",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.69
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.56
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 420.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.16
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.52
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   }
+  ],
+  "total": 103.5,
+  "days": 92,
+  "purchased": "2026-06-24",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.23
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   }
+  ],
+  "total": 192.5,
+  "days": 249,
+  "purchased": "2026-01-18",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.44
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.68
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 179.97,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.9
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 298.0,
+  "days": 60,
+  "purchased": "2026-07-26",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.43
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.89
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 32,
+  "purchased": "2026-08-23",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.38
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   }
+  ],
+  "total": 748.97,
+  "days": 220,
+  "purchased": "2026-02-16",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.65
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.84
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 211,
+  "purchased": "2026-02-25",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.89
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 124.98,
+  "days": 364,
+  "purchased": "2025-09-25",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.47
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.93
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 565.0,
+  "days": 202,
+  "purchased": "2026-03-06",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.47
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.9
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 358.99,
+  "days": 125,
+  "purchased": "2026-05-22",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.54
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.86
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 409.5,
+  "days": 27,
+  "purchased": "2026-08-28",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.89
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 145.0,
+  "days": 87,
+  "purchased": "2026-06-29",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.33
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 197,
+  "purchased": "2026-03-11",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 2
+   }
+  ],
+  "total": 597.0,
+  "days": 243,
+  "purchased": "2026-01-24",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.65
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.94
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 158.49,
+  "days": 350,
+  "purchased": "2025-10-09",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.61
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.83
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 12,
+  "purchased": "2026-09-12",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.94
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.86
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   }
+  ],
+  "total": 277.0,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.28
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.78
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   }
+  ],
+  "total": 367.5,
+  "days": 30,
+  "purchased": "2026-08-25",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.36
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.79
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 308.0,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.1
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.65
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 1570.99,
+  "days": 13,
+  "purchased": "2026-09-11",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.79
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.9
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 179.97,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.43
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 145.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.75
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.63
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 2
+   }
+  ],
+  "total": 290.0,
+  "days": 161,
+  "purchased": "2026-04-16",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.42
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 19.99,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.52
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 89,
+  "purchased": "2026-06-27",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.27
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.44
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 19.99,
+  "days": 159,
+  "purchased": "2026-04-18",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.37
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.93
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 360.0,
+  "days": 99,
+  "purchased": "2026-06-17",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.26
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.57
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 2
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 2
+   }
+  ],
+  "total": 296.0,
+  "days": 57,
+  "purchased": "2026-07-29",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 480.0,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.33
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.53
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.87
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 62,
+  "purchased": "2026-07-24",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 447.0,
+  "days": 168,
+  "purchased": "2026-04-09",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.48
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.87
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   }
+  ],
+  "total": 158.0,
+  "days": 127,
+  "purchased": "2026-05-20",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.59
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 188.0,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.32
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.65
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 208.47,
+  "days": 121,
+  "purchased": "2026-05-26",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.67
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 420.0,
+  "days": 28,
+  "purchased": "2026-08-27",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.78
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.45
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.66
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.61
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.68
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.86
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 113.5,
+  "days": 299,
+  "purchased": "2025-11-29",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 59.97,
+  "days": 48,
+  "purchased": "2026-08-07",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.74
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 209.0,
+  "days": 20,
+  "purchased": "2026-09-04",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.6
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 268.5,
+  "days": 48,
+  "purchased": "2026-08-07",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.27
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.47
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   }
+  ],
+  "total": 299.97,
+  "days": 31,
+  "purchased": "2026-08-24",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.93
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   }
+  ],
+  "total": 997.99,
+  "days": 160,
+  "purchased": "2026-04-17",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.54
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.63
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.93
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 303.0,
+  "days": 223,
+  "purchased": "2026-02-13",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 533.5,
+  "days": 329,
+  "purchased": "2025-10-30",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.27
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.84
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 91,
+  "purchased": "2026-06-25",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.19
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 23,
+  "purchased": "2026-09-01",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.7
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.83
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   }
+  ],
+  "total": 617.5,
+  "days": 243,
+  "purchased": "2026-01-24",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.49
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.31
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.87
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 45,
+  "purchased": "2026-08-10",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.48
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.8
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   }
+  ],
+  "total": 199.98,
+  "days": 229,
+  "purchased": "2026-02-07",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.88
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.95,
+  "days": 205,
+  "purchased": "2026-03-03",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.14
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.57
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 267.0,
+  "days": 43,
+  "purchased": "2026-08-12",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.35
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 820.99,
+  "days": 15,
+  "purchased": "2026-09-09",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 480.0,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.52
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.78
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 558.0,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.45
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 499.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.19
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.46
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   }
+  ],
+  "total": 1196.99,
+  "days": 296,
+  "purchased": "2025-12-02",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 323.5,
+  "days": 300,
+  "purchased": "2025-11-28",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.75
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 24.99,
+  "days": 222,
+  "purchased": "2026-02-14",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.68
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.65
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 24,
+  "purchased": "2026-08-31",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.6
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.81
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 627.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.45
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   }
+  ],
+  "total": 273.97,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.57
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.78
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   }
+  ],
+  "total": 1546.0,
+  "days": 228,
+  "purchased": "2026-02-08",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.78
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   }
+  ],
+  "total": 267.0,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.36
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.86
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   }
+  ],
+  "total": 267.0,
+  "days": 101,
+  "purchased": "2026-06-15",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.34
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.48
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 3
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 657.0,
+  "days": 371,
+  "purchased": "2025-09-18",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.43
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.65
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 224.97,
+  "days": 32,
+  "purchased": "2026-08-23",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.95
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.92
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 148.97,
+  "days": 152,
+  "purchased": "2026-04-25",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.55
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 99.0,
+  "days": 45,
+  "purchased": "2026-08-10",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 598.96,
+  "days": 158,
+  "purchased": "2026-04-19",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.33
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.71
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.43
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.77
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.82
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 325,
+  "purchased": "2025-11-03",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.7
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.84
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   }
+  ],
+  "total": 449.0,
+  "days": 274,
+  "purchased": "2025-12-24",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.83
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.69
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 24.99,
+  "days": 18,
+  "purchased": "2026-09-06",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 14,
+  "purchased": "2026-09-10",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.63
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.53
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 3
+   }
+  ],
+  "total": 664.5,
+  "days": 148,
+  "purchased": "2026-04-29",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.5
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.56
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.82
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 420.0,
+  "days": 276,
+  "purchased": "2025-12-22",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.23
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.78
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.83
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   }
+  ],
+  "total": 646.98,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.67
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.47
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.82
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 819.0,
+  "days": 146,
+  "purchased": "2026-05-01",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.84
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 2
+   }
+  ],
+  "total": 398.0,
+  "days": 357,
+  "purchased": "2025-10-02",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.38
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.89
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   }
+  ],
+  "total": 648.98,
+  "days": 15,
+  "purchased": "2026-09-09",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.84
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.69
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 268,
+  "purchased": "2025-12-30",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.7
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.92
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 2
+   }
+  ],
+  "total": 290.0,
+  "days": 132,
+  "purchased": "2026-05-15",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 47,
+  "purchased": "2026-08-08",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.41
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 473.99,
+  "days": 133,
+  "purchased": "2026-05-14",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.73
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.86
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 223,
+  "purchased": "2026-02-13",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.34
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.57
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 238,
+  "purchased": "2026-01-29",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.35
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 477.5,
+  "days": 32,
+  "purchased": "2026-08-23",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.2
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   }
+  ],
+  "total": 247.49,
+  "days": 364,
+  "purchased": "2025-09-25",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.19
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 420.0,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.26
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.94
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 2
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 497.99,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.24
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.51
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 59.97,
+  "days": 365,
+  "purchased": "2025-09-24",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.59
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.44
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   }
+  ],
+  "total": 746.97,
+  "days": 12,
+  "purchased": "2026-09-12",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.84
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.57
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 2
+   }
+  ],
+  "total": 69.0,
+  "days": 322,
+  "purchased": "2025-11-06",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.63
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   }
+  ],
+  "total": 349.95,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.11
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.85
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 212,
+  "purchased": "2026-02-24",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.44
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.55
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 1050.0,
+  "days": 247,
+  "purchased": "2026-01-20",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.33
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.94
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   }
+  ],
+  "total": 1097.98,
+  "days": 44,
+  "purchased": "2026-08-11",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.34
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.42
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   }
+  ],
+  "total": 267.0,
+  "days": 72,
+  "purchased": "2026-07-14",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.74
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.76
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.76
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.85
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 109.47,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.34
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.56
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 3
+   }
+  ],
+  "total": 124.95,
+  "days": 18,
+  "purchased": "2026-09-06",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.45
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.89
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   }
+  ],
+  "total": 149.97,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.35
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.85
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 145.0,
+  "days": 377,
+  "purchased": "2025-09-12",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.79
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.53
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 499.99,
+  "days": 29,
+  "purchased": "2026-08-26",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.47
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.95
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   }
+  ],
+  "total": 306.98,
+  "days": 74,
+  "purchased": "2026-07-12",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.23
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.46
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   }
+  ],
+  "total": 329.0,
+  "days": 284,
+  "purchased": "2025-12-14",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.89
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 244.5,
+  "days": 207,
+  "purchased": "2026-03-01",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.67
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 248.98,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.36
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.58
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 59.97,
+  "days": 280,
+  "purchased": "2025-12-18",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.67
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.43
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   }
+  ],
+  "total": 158.0,
+  "days": 337,
+  "purchased": "2025-10-22",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 17,
+  "purchased": "2026-09-07",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.25
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 2
+   }
+  ],
+  "total": 398.0,
+  "days": 336,
+  "purchased": "2025-10-23",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.24
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.73
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 355.0,
+  "days": 365,
+  "purchased": "2025-09-24",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.4
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.89
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   }
+  ],
+  "total": 435.0,
+  "days": 208,
+  "purchased": "2026-02-28",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   }
+  ],
+  "total": 39.98,
+  "days": 43,
+  "purchased": "2026-08-12",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.63
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.36
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 227.5,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.41
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.74
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.69
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.53
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 497.99,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.49
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.5
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   }
+  ],
+  "total": 435.0,
+  "days": 29,
+  "purchased": "2026-08-26",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.71
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.54
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": true,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 214,
+  "purchased": "2026-02-22",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.67
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.82
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   }
+  ],
+  "total": 313.5,
+  "days": 361,
+  "purchased": "2025-09-28",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.48
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.77
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   }
+  ],
+  "total": 299.97,
+  "days": 309,
+  "purchased": "2025-11-19",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.22
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.83
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 355.0,
+  "days": 391,
+  "purchased": "2025-08-29",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.8
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 3
+   }
+  ],
+  "total": 630.0,
+  "days": 256,
+  "purchased": "2026-01-11",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.42
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.82
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 2
+   }
+  ],
+  "total": 522.98,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.75
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.4
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   }
+  ],
+  "total": 1095.98,
+  "days": 133,
+  "purchased": "2026-05-14",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.63
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.76
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.82
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 63,
+  "purchased": "2026-07-23",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.5
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 253,
+  "purchased": "2026-01-14",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.86
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 177,
+  "purchased": "2026-03-31",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.55
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   }
+  ],
+  "total": 299.97,
+  "days": 134,
+  "purchased": "2026-05-13",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.37
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.63
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.83
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   }
+  ],
+  "total": 306.98,
+  "days": 62,
+  "purchased": "2026-07-24",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.24
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.65
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.83
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 145.0,
+  "days": 28,
+  "purchased": "2026-08-27",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.33
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 209.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.61
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.82
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 226,
+  "purchased": "2026-02-10",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.27
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.53
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 2
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   }
+  ],
+  "total": 482.5,
+  "days": 28,
+  "purchased": "2026-08-27",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.48
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 192,
+  "purchased": "2026-03-16",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.69
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.44
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 389.5,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.3
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.66
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   }
+  ],
+  "total": 99.0,
+  "days": 75,
+  "purchased": "2026-07-11",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.31
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.5
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.17
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.76
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 420.0,
+  "days": 59,
+  "purchased": "2026-07-27",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.19
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.78
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.5
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.82
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 45,
+  "purchased": "2026-08-10",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.85
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 59.97,
+  "days": 43,
+  "purchased": "2026-08-12",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.95
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 39.98,
+  "days": 88,
+  "purchased": "2026-06-28",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.75
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   }
+  ],
+  "total": 148.5,
+  "days": 42,
+  "purchased": "2026-08-13",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.18
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.74
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.61
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.31
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 548.99,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.81
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 449.0,
+  "days": 3,
+  "purchased": "2026-09-21",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.97
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 165,
+  "purchased": "2026-04-12",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.8
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   }
+  ],
+  "total": 199.98,
+  "days": 272,
+  "purchased": "2025-12-26",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.94
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 364,
+  "purchased": "2025-09-25",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.45
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 327,
+  "purchased": "2025-11-01",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.51
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   }
+  ],
+  "total": 449.0,
+  "days": 24,
+  "purchased": "2026-08-31",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.69
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.78
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   }
+  ],
+  "total": 267.0,
+  "days": 278,
+  "purchased": "2025-12-20",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.48
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.95
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 257.96,
+  "days": 270,
+  "purchased": "2025-12-28",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.45
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 565.0,
+  "days": 289,
+  "purchased": "2025-12-09",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.2
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.75
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 340,
+  "purchased": "2025-10-19",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   }
+  ],
+  "total": 420.0,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.18
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.55
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 468.99,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.52
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.56
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 148,
+  "purchased": "2026-04-29",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.41
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   }
+  ],
+  "total": 103.5,
+  "days": 264,
+  "purchased": "2026-01-03",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.93
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 19.99,
+  "days": 151,
+  "purchased": "2026-04-26",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 2
+   }
+  ],
+  "total": 898.0,
+  "days": 292,
+  "purchased": "2025-12-06",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.83
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.94
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   }
+  ],
+  "total": 1646.97,
+  "days": 18,
+  "purchased": "2026-09-06",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.74
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.85
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 3
+   }
+  ],
+  "total": 59.97,
+  "days": 364,
+  "purchased": "2025-09-25",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.4
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.81
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 258.5,
+  "days": 42,
+  "purchased": "2026-08-13",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.46
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.64
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 434.0,
+  "days": 72,
+  "purchased": "2026-07-14",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.45
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.86
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.31
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.72
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 2
+   }
+  ],
+  "total": 290.0,
+  "days": 293,
+  "purchased": "2025-12-05",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 2
+   }
+  ],
+  "total": 290.0,
+  "days": 148,
+  "purchased": "2026-04-29",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.59
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.85
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 2
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 645.0,
+  "days": 59,
+  "purchased": "2026-07-27",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.62
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.34
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 312,
+  "purchased": "2025-11-16",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.6
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 34.5,
+  "days": 365,
+  "purchased": "2025-09-24",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.34
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.72
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   }
+  ],
+  "total": 896.97,
+  "days": 232,
+  "purchased": "2026-02-04",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.9
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 333,
+  "purchased": "2025-10-26",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.77
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.62
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.87
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 569.0,
+  "days": 42,
+  "purchased": "2026-08-13",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.4
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.39
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 1446.99,
+  "days": 262,
+  "purchased": "2026-01-05",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.42
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.57
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 324,
+  "purchased": "2025-11-04",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.42
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.72
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   }
+  ],
+  "total": 1347.0,
+  "days": 14,
+  "purchased": "2026-09-10",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 2
+   }
+  ],
+  "total": 99.0,
+  "days": 291,
+  "purchased": "2025-12-07",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.27
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.51
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.83
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   }
+  ],
+  "total": 49.98,
+  "days": 75,
+  "purchased": "2026-07-11",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.74
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.92
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 252,
+  "purchased": "2026-01-15",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   }
+  ],
+  "total": 597.0,
+  "days": 32,
+  "purchased": "2026-08-23",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.43
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.8
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 138.0,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.47
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.54
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 494.5,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.32
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.56
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 2
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 874.5,
+  "days": 346,
+  "purchased": "2025-10-13",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.8
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 148.0,
+  "days": 42,
+  "purchased": "2026-08-13",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.63
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.64
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   }
+  ],
+  "total": 290.0,
+  "days": 217,
+  "purchased": "2026-02-19",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 2
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 697.98,
+  "days": 175,
+  "purchased": "2026-04-02",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.51
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.8
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   }
+  ],
+  "total": 188.48,
+  "days": 123,
+  "purchased": "2026-05-24",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.34
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.89
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   }
+  ],
+  "total": 949.0,
+  "days": 48,
+  "purchased": "2026-08-07",
+  "edge": 45,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.53
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.94
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   }
+  ],
+  "total": 1646.97,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.85
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.71
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 2
+   }
+  ],
+  "total": 240.0,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.39
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.56
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.95
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 79.0,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.7
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.54
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's heavier than I expected and I can't lift it easily.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 169.5,
+  "days": 28,
+  "purchased": "2026-08-27",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.28
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 368.0,
+  "days": 13,
+  "purchased": "2026-09-11",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.25
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 91,
+  "purchased": "2026-06-25",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.36
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 80,
+  "purchased": "2026-07-06",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.58
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.9
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Arrived with a cracked screen, straight out of the box.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 3
+   }
+  ],
+  "total": 74.97,
+  "days": 366,
+  "purchased": "2025-09-23",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.25
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.67
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   }
+  ],
+  "total": 210.0,
+  "days": 300,
+  "purchased": "2025-11-28",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.75
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   }
+  ],
+  "total": 227.5,
+  "days": 202,
+  "purchased": "2026-03-06",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.29
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.8
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 614.5,
+  "days": 46,
+  "purchased": "2026-08-09",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 3
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 316.0,
+  "days": 128,
+  "purchased": "2026-05-19",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.32
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 32,
+  "purchased": "2026-08-23",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.7
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   }
+  ],
+  "total": 597.0,
+  "days": 69,
+  "purchased": "2026-07-17",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.39
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 24.99,
+  "days": 61,
+  "purchased": "2026-07-25",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 197.99,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.47
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.7
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   }
+  ],
+  "total": 224.0,
+  "days": 31,
+  "purchased": "2026-08-24",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.98
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 2
+   }
+  ],
+  "total": 69.0,
+  "days": 385,
+  "purchased": "2025-09-04",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.4
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.52
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "I changed my mind, I don't need it anymore.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 2
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   }
+  ],
+  "total": 217.98,
+  "days": 91,
+  "purchased": "2026-06-25",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.28
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 209.0,
+  "days": 13,
+  "purchased": "2026-09-11",
+  "edge": 60,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.63
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.88
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 89.0,
+  "days": 168,
+  "purchased": "2026-04-09",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.72
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.93
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 268.5,
+  "days": 87,
+  "purchased": "2026-06-29",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.41
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.72
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Honestly it works great, it's just not what I pictured.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 2
+   }
+  ],
+  "total": 199.98,
+  "days": 13,
+  "purchased": "2026-09-11",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.4
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   }
+  ],
+  "total": 24.99,
+  "days": 365,
+  "purchased": "2025-09-24",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.86
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.57
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 1
+   }
+  ],
+  "total": 120.0,
+  "days": 31,
+  "purchased": "2026-08-24",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.38
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.96
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "apparel",
+  "final_sale": true,
+  "defective": false,
+  "message": "The box was crushed in shipping but the lamp itself works fine.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   }
+  ],
+  "total": 19.99,
+  "days": 87,
+  "purchased": "2026-06-29",
+  "edge": 90,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.95
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.91
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   }
+  ],
+  "total": 299.97,
+  "days": 291,
+  "purchased": "2025-12-07",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.46
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.33
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   },
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 2
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 627.5,
+  "days": 170,
+  "purchased": "2026-04-07",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.33
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.55
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.86
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": false,
+  "message": "Found it cheaper somewhere else.",
+  "items": [
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   },
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 1570.99,
+  "days": 17,
+  "purchased": "2026-09-07",
+  "edge": 15,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.74
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.93
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   },
+   {
+    "name": "charger",
+    "price_usd": 24.99,
+    "qty": 3
+   }
+  ],
+  "total": 174.96,
+  "days": 364,
+  "purchased": "2025-09-25",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.78
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.62
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 89.0,
+  "days": 130,
+  "purchased": "2026-05-17",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.76
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.73
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "The color looked different online. Nothing wrong with it though.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 3
+   }
+  ],
+  "total": 435.49,
+  "days": 291,
+  "purchased": "2025-12-07",
+  "edge": 30,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.87
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "The seam split the first time I wore it.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   }
+  ],
+  "total": 103.5,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.56
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.6
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 1
+   }
+  ],
+  "total": 99.99,
+  "days": 368,
+  "purchased": "2025-09-21",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": true,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.5
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.36
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "home",
+  "final_sale": true,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   }
+  ],
+  "total": 103.5,
+  "days": 236,
+  "purchased": "2026-01-31",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": true,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.86
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.89
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   }
+  ],
+  "total": 148.5,
+  "days": 367,
+  "purchased": "2025-09-22",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.27
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.57
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   },
+   {
+    "name": "jacket",
+    "price_usd": 89.0,
+    "qty": 1
+   }
+  ],
+  "total": 178.0,
+  "days": 62,
+  "purchased": "2026-07-24",
+  "edge": 60,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.35
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": true,
+  "defective": false,
+  "message": "It's not broken or anything, I just never used it.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 3
+   }
+  ],
+  "total": 1546.0,
+  "days": 17,
+  "purchased": "2026-09-07",
+  "edge": 15,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.02
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": true,
+  "defective": false,
+  "message": "Wrong size, it's too small for me.",
+  "items": [
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 3
+   },
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 2
+   }
+  ],
+  "total": 317.5,
+  "days": 48,
+  "purchased": "2026-08-07",
+  "edge": 45,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "DENY",
+   "conf": 1
+  },
+  "prepped": {
+   "choice": "DENY",
+   "conf": 0.99
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.03
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "worked for like a day then nothing, no lights no sound",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "sneakers",
+    "price_usd": 120.0,
+    "qty": 3
+   }
+  ],
+  "total": 379.99,
+  "days": 390,
+  "purchased": "2025-08-30",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "DENY",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.21
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.66
+  },
+  "hybrid": {
+   "choice": "DENY",
+   "defect_p": 0.91
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "home",
+  "final_sale": true,
+  "defective": true,
+  "message": "It stopped charging after four days.",
+  "items": [
+   {
+    "name": "chair",
+    "price_usd": 145.0,
+    "qty": 3
+   }
+  ],
+  "total": 435.0,
+  "days": 362,
+  "purchased": "2025-09-27",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.32
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.93
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.84
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": true,
+  "message": "The zipper jams every single time I use it.",
+  "items": [
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 1
+   },
+   {
+    "name": "t-shirt",
+    "price_usd": 19.99,
+    "qty": 2
+   },
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 3
+   }
+  ],
+  "total": 208.47,
+  "days": 185,
+  "purchased": "2026-03-23",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.13
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.74
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.92
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Oh fantastic, a blender that doesn't blend. Love that for me.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 1
+   }
+  ],
+  "total": 199.0,
+  "days": 364,
+  "purchased": "2025-09-25",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.58
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.75
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.97
+  }
+ },
+ {
+  "tier": "platinum",
+  "category": "home",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 1
+   },
+   {
+    "name": "rug",
+    "price_usd": 210.0,
+    "qty": 3
+   }
+  ],
+  "total": 840.0,
+  "days": 88,
+  "purchased": "2026-06-28",
+  "edge": 90,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.32
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.62
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "apparel",
+  "final_sale": false,
+  "defective": false,
+  "message": "My partner already bought one, so we have two now.",
+  "items": [
+   {
+    "name": "jeans",
+    "price_usd": 49.5,
+    "qty": 1
+   }
+  ],
+  "total": 49.5,
+  "days": 29,
+  "purchased": "2026-08-26",
+  "edge": 30,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "AUTO_REFUND",
+  "raw": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.45
+  },
+  "prepped": {
+   "choice": "AUTO_REFUND",
+   "conf": 0.72
+  },
+  "hybrid": {
+   "choice": "AUTO_REFUND",
+   "defect_p": 0.01
+  }
+ },
+ {
+  "tier": "standard",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "Paint started peeling off within a week of normal use.",
+  "items": [
+   {
+    "name": "headphones",
+    "price_usd": 199.0,
+    "qty": 3
+   }
+  ],
+  "total": 597.0,
+  "days": 49,
+  "purchased": "2026-08-06",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "DENY",
+   "conf": 0.17
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.36
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.85
+  }
+ },
+ {
+  "tier": "silver",
+  "category": "home",
+  "final_sale": false,
+  "defective": true,
+  "message": "Doesn't turn on at all. Tried three outlets.",
+  "items": [
+   {
+    "name": "blender",
+    "price_usd": 79.0,
+    "qty": 1
+   },
+   {
+    "name": "lamp",
+    "price_usd": 34.5,
+    "qty": 1
+   }
+  ],
+  "total": 113.5,
+  "days": 175,
+  "purchased": "2026-04-02",
+  "edge": 365,
+  "near_day_edge": false,
+  "near_total_edge": false,
+  "truth": "MANAGER",
+  "raw": {
+   "choice": "MANAGER",
+   "conf": 0.54
+  },
+  "prepped": {
+   "choice": "MANAGER",
+   "conf": 0.71
+  },
+  "hybrid": {
+   "choice": "MANAGER",
+   "defect_p": 0.94
+  }
+ },
+ {
+  "tier": "gold",
+  "category": "electronics",
+  "final_sale": false,
+  "defective": true,
+  "message": "One of the legs is shorter than the others so it wobbles, clearly made wrong.",
+  "items": [
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "tablet",
+    "price_usd": 449.0,
+    "qty": 1
+   },
+   {
+    "name": "speaker",
+    "price_usd": 99.99,
+    "qty": 3
+   }
+  ],
+  "total": 1197.97,
+  "days": 363,
+  "purchased": "2025-09-26",
+  "edge": 365,
+  "near_day_edge": true,
+  "near_total_edge": false,
+  "truth": "FINANCE",
+  "raw": {
+   "choice": "FINANCE",
+   "conf": 0.58
+  },
+  "prepped": {
+   "choice": "FINANCE",
+   "conf": 0.87
+  },
+  "hybrid": {
+   "choice": "FINANCE",
+   "defect_p": 0.95
+  }
+ }
+]
