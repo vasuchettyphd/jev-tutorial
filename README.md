@@ -10,7 +10,7 @@ Jev doesn't write text. You give it some input text (the **state**) and a set of
 |---|---|---|
 | **choice** | Which team handles this? billing / shipping / account | `"billing"`, a probability for each option, and a confidence |
 | **score** | How angry is this customer, on a 0-2 scale you define? | `1.4` |
-| **noul** | Does this ask for a refund? | `0.99`, the probability that the answer is yes |
+| **noul** (yes/no) | Does this ask for a refund? | `0.99`, the probability that the answer is yes |
 
 **A comparison that might help:** Jev is like an experienced mailroom clerk. Show them an envelope and they'll tell you at a glance which department it goes to. Don't ask them to work out whether the invoice inside is 31 days overdue under clause 4(b), even though they'll usually get that right too.
 
