@@ -1,6 +1,6 @@
 # Jev: what it's good at and what it isn't
 
-A short, hands-on guide to [TypeSafe Jev 1.13](https://openrouter.ai/typesafe/jev-1.13) accessed through OpenRouter. Every claim below comes from live calls (about 30 of them, total cost under one cent). The scripts in [`experiments/`](experiments/) reproduce them.
+A short, hands-on guide to [TypeSafe Jev 1.13](https://openrouter.ai/typesafe/jev-1.13) accessed through OpenRouter. The results below come from about 960 live calls, costing a few cents in total. Where a claim comes from TypeSafe's docs instead, or hasn't been tested yet, the text says so. The scripts in [`experiments/`](experiments/) reproduce everything.
 
 ## What Jev is
 
@@ -9,7 +9,7 @@ Jev doesn't write text. You give it some input text (the **state**) and a set of
 | Type | Example | Returns |
 |---|---|---|
 | **choice** | Which team handles this? billing / shipping / account | `"billing"`, a probability for each option, and a confidence |
-| **score** | How angry is this customer, on a 0-2 scale you define? | `1.4` |
+| **score** | How angry is this customer, on a 0-2 scale you define? | `1.4` (an illustration: score questions aren't tested in this guide yet) |
 | **noul** (yes/no) | Does this ask for a refund? | `0.99`, the probability that the answer is yes |
 
 **A comparison that might help:** Jev is like an experienced mailroom clerk. Show them an envelope and they'll tell you at a glance which department it goes to. Don't ask them to work out whether the invoice inside is 31 days overdue under clause 4(b), even though they'll usually get that right too.
@@ -26,6 +26,8 @@ OK  product   conf=1.00  "The dashboard chart shows blank since the update"
 -> 8/8, including the sarcastic one and the one full of typos
 ```
 
+These eight were easy, and Jev was 1.00 confident on all of them. The tricky-message test further down is the harder check of how well it reads.
+
 ## Routing with logic (rules over facts): usually right, and wrong exactly where it matters
 
 I gave it a refund policy: under $100 and within 30 days means auto-refund, $100 or more means a manager approves, older than 30 days means deny, and gold-tier customers get 60 days. Then I asked it for the outcome directly:
@@ -36,7 +38,7 @@ OK  $45    50d gold      -> AUTO_REFUND  conf=0.79   (applied the gold exception
 XX  $100   31d standard  -> MANAGER      conf=0.97   <- should be DENY, and it was 97% sure
 ```
 
-It got 7 of 8 right. The miss was one day past the limit, and it was confidently wrong. Pure computation showed the same pattern:
+It got 7 of 8 right. The miss was one day past the limit, and it was confidently wrong. A handful of small computation checks (sums, counts, dates) showed the same pattern:
 
 ```
 XX  log has 3 "fail" entries - "more than 3?"  -> p=0.84 yes   (wrong)
@@ -152,18 +154,24 @@ if ans["wants_refund"] > 0.7 and days <= limit:
 | Good at (let Jev do it) | Bad at (keep in code) |
 |---|---|
 | Intent and topic routing | Dates, sums, counts, thresholds |
-| Sentiment, urgency, frustration scores | Rules with exact cutoffs |
+| Sentiment, urgency, frustration scores (not tested here yet) | Rules with exact cutoffs |
 | Yes/no facts about text ("mentions an order ID?", "asks for a password?") | Anything needing an exact answer |
-| Checking whether a document supports a claim | Writing replies, summaries or code; it can't generate text |
+| Checking whether a document supports a claim (not tested here yet) | Writing replies, summaries or code; it can't generate text |
 | Many narrow questions at once, in one cheap call | Open-ended "figure out what to do" work |
 
 ## Other things I found
 
-- **Always add an `other` / `unclear` option.** It has to pick one of your options, so "hi" was routed to `product` with 0.71 confidence.
-- **Messages about two things get squashed into one label.** "Arrived broken AND you charged me twice" came back as billing at 0.99. If a message can be about several things, ask a separate yes/no question per team rather than one choice.
+- **Always add an `other` / `unclear` option.** It has to pick one of your options, so "hi" was routed to `product` with 0.71 confidence. That's one example, but the fix costs nothing.
+- **Messages about two things get squashed into one label.** "Arrived broken AND you charged me twice" came back as billing at 0.99. That's one example, not a measured rate. If a message can be about several things, ask a separate yes/no question per team rather than one choice.
 - **Use confidence as a filter.** A good pattern: if confidence is below about 0.8, send the ticket to a human or a smarter LLM. Tune that threshold on your own data.
 - **Ask narrow questions.** "Is this spam?" works worse than 5 small yes/no questions combined in code. That's [TypeSafe's own top recommendation](https://docs.typesafe.ai/concepts/how-to-build-with-system-one).
 - **Cost:** about $0.000015 per call (around 350 input tokens), so roughly 70,000 triage calls per dollar.
+
+## What these tests don't show
+
+- **How well Jev reads outside customer support.** I wrote and labelled every test message myself, and they're all support tickets and refund requests (two in Spanish). The "Jev reads well" finding rests on about 80 messages. The "bad at rules" finding rests on 300 cases.
+- **Whether Jev reads better than a general-purpose LLM.** The only comparison here is a keyword check.
+- **Score questions, long or cluttered input, and repeat-run stability.** None of these are tested yet.
 
 ## How to call it
 
@@ -195,13 +203,15 @@ python3 triage_vs_logic.py            # triage vs rule-based refund routing
 python3 ambiguity_and_computation.py  # ambiguous tickets, sums, counts, dates, multi-hop
 python3 refund_stress_test.py 300 7   # 300 random cases, seed 7; writes results/refund_stress_test_seed7.json
 python3 defect_reading_test.py        # 30 tricky hand-labelled messages; writes results/defect_reading_test.json
+python3 claim_support_test.py         # 24 hand-labelled document/claim pairs (results not in this guide yet)
+python3 stability_test.py 5           # tricky-message test run 5 times, to check stability (results not in this guide yet)
 python3 keyword_baseline.py           # keyword check on the same messages, for comparison (no API key needed)
 python3 -m unittest test_truth        # offline checks of the stress test's answer key (no API key needed)
 ```
 
 The stress test makes 3 calls per case (900 for 300 cases) and refuses more than 1,000 cases. Its calls carry the long policy text, so they cost about twice as much as a triage call (roughly $0.00003 each), and a full run comes to a few cents. Failed calls are retried on rate limits and server errors only. A bad key or an empty balance stops straight away.
 
-TypeSafe designs Jev to give stable answers across repeated runs, but exact numbers may shift between model versions.
+TypeSafe designs Jev to give stable answers across repeated runs. I haven't tested that yet, and exact numbers may shift between model versions.
 
 ## Further reading
 
