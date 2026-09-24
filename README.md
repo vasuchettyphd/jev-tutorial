@@ -111,6 +111,29 @@ XX  p=0.65  "My last one from you was defective. This one is fine but I've lost 
 
 It got 29/30. It handled sarcasm, idioms, Spanish, buried details, customer-caused damage and problems that had already been fixed. The one miss is a defect that belonged to a *different* item. Five answers landed in the unsure 0.2-0.8 band, which is exactly the queue a human would review. The full output is saved in `results/defect_reading_test.json`.
 
+## Why not just code? Why Jev?
+
+The stress test could look like "code beat Jev, so skip Jev". That's not what it shows. Code won at the rules, but it can't read the messages. In the hybrid, the one input code couldn't produce was "does this message describe a defect?", and Jev supplied it.
+
+**Why not just code?** Because code doesn't read, it matches. I wrote a keyword check for defects ([`keyword_baseline.py`](experiments/keyword_baseline.py)): about 30 words like "broken", "leaking" and "stopped working", plus a rule that skips a match after "not". I wrote it once and didn't tune it to the test. Then I ran it on the same messages Jev read:
+
+```
+                                          keywords      Jev
+stress-test messages (plain, 36)          26/36 (72%)   36/36 (100%)
+tricky messages (hand-labelled, 30)       19/30 (63%)   29/30 (97%)
+
+XX  "It broke my heart to return it, it's beautiful, but it doesn't match my couch."  (idiom)
+XX  "I dropped it down the stairs and now it won't turn on."                          (customer's fault)
+XX  "Wow. Five stars for the packaging. Zero for the product, which is in two pieces." (no keyword)
+XX  "La cafetera gotea por abajo desde el primer dia."                                 (Spanish)
+```
+
+Keywords miss any defect described in words they don't list, and they flag any non-defect that happens to use one. Adding more keywords just trades one kind of miss for the other. Even on the plain messages from the stress test, keywords got 72%. The hybrid's 100% only works because the reading step is right.
+
+**Why not a general-purpose LLM?** You can use one. Jev's case is narrower. Every answer is one of your fixed options with a probability, so there's no free text to parse. The confidence score gives you a threshold for sending cases to a human. A call costs about $0.000015. I didn't test Jev's accuracy against a general LLM, so this guide doesn't claim either one reads text better.
+
+So it's not Jev *or* code. Jev sits where messy text enters the system and turns it into a few facts. Code does everything after that.
+
 ## The rule of thumb: Jev reads, code decides
 
 ```python
@@ -172,6 +195,7 @@ python3 triage_vs_logic.py            # triage vs rule-based refund routing
 python3 ambiguity_and_computation.py  # ambiguous tickets, sums, counts, dates, multi-hop
 python3 refund_stress_test.py 300 7   # 300 random cases, seed 7; writes results/refund_stress_test_seed7.json
 python3 defect_reading_test.py        # 30 tricky hand-labelled messages; writes results/defect_reading_test.json
+python3 keyword_baseline.py           # keyword check on the same messages, for comparison (no API key needed)
 python3 -m unittest test_truth        # offline checks of the stress test's answer key (no API key needed)
 ```
 
